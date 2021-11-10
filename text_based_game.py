@@ -94,8 +94,11 @@ def main():
     print(
         "Nobo: We have underwater tsunamis so its just expected to restrain patients like this."
     )
+    
+    print("Nobo: Can you remember anything from before waking up here?")
+    print("Me: I'm remebering a few things here and there.")
     print(
-        "Nobo: I'm going to remove the tape and restraints now so you can answer one of my questions.\n"
+   "Nobo: I'm going to remove the tape and restraints now so you can answer one of my questions.\n"
     )
 
     print("Nobo unties your hands and feet and takes of the tape.")
