@@ -169,7 +169,7 @@ def main():
     while True:
         challenge1 = input("> ")
         challenge1 = challenge1.upper()
-        if challenge1 == "75" or challenge1 == "SEVENTY-FIVE"
+        if challenge1 == "75" or challenge1 == "SEVENTY-FIVE":
             print("Nobo: Very impressive, you passed the first test.\n")
             break
         else:
@@ -184,14 +184,50 @@ def main():
     print("Nobo: What is 121 ÷ 11 equal to?\n")
 
     while True:
-    challenge2 = input("> ")
-    challenge2 = challenge2.upper()
-    if challenge2 == "11" or challenge2 == "ELEVEN"
+        challenge2 = input("> ")
+        challenge2 = challenge2.upper()
+    if challenge2 == "11" or challenge2 == "ELEVEN":
         print("Nobo: WOW! That was fast it took our teams 3 months to crack that code!")
-        print("You passed the second test, good job!")
+        print("You passed the second test, good job!\n")
         break
     else:
-        print("Nobo: I'll give you another try.\n")
+        print("Nobo: I'll let you try again.\n")
+
+    print("Nobo: Nice job! You figured out round two.\n")
+    print("Nobo: For this last one I won't give you time to recoperate.\n")
+    print("CHALLANGE THREE\n")
+    print("Nobo: We start NOW!")
+    print("Nobo: Solve this riddle.")
+    print("Nobo: Even our all-wise king had a hard time with this one.\n")
+    print("Nobo: What has hands but no arms and a face but no eyes?\n")
+
+    while True:
+        challenge3 = input("> ")
+        challenge3 = challenge3.upper()
+    if challenge3 == "CLOCK":
+        print("Nobo: I am beyond surprised! That was the hardest one.")
+        print("You passed all the tests!")
+        break
+    else:
+        print("Nobo: Take another try.")
+        print("*HINT* Tick tock, tick tock.\n")
+
+    print("Well done, my friend!")
+    print("Go rest you deserve it, I'll get you tommorw to meet with the king.\n")
+
+    print("*NEXT DAY*")
+    print("Nobo: The king is waiting for us.")
+    print("You and Nobo wait infront of the door with the gaurds before the king gives you the go ahead.")
+    print("Vrauqrid King: ENTER!")
+    print("Vrauqrid King: I heard that you passed all the challanges.")
+    print("Honestly I'm a little surprised but I digress.")
+    print("So I'll let you take one of our ancient ships, you should have everything in there to surface, plus some rations.")
+    print("You: Thank you so much! I will never forget your kindness.")
+    print("No need for the pleasentures, just remember you can neer return once you leave.\n")
+    print("Although")
+
+
+
 
 
 
