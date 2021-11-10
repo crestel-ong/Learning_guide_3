@@ -150,20 +150,50 @@ def main():
     print("Vrauqrid King: Oh, also once you leave we will never take you back in.")
     print("Vrauqrid King: Even if you beg and plead we will ignore your cries.")
     print("You: I accept those requirements.\n")
-    print("Vrauqrid King: Prepare yourself tomorrow will be your first challange.")
+    print("Vrauqrid King: Prepare yourself tomorrow it will start.")
 
-    print("CHALLANGE ONE")
+    print("CHALLANGE ONE\n")
     print("The next day in some a room of the palace.")
-    print("Nobo: As requested my the King, I will be here to lead the challanges.")
+    print("Nobo: As requested by the King, I will be here to lead the challanges.")
     print("Nobo: Any questions?")
     print("You: Ah, actually yes.")
     print("Nobo: Nothing? Good. *He states rudely*")
     print("Nobo: Sorry {0}, its kind of a sarcastic question.")
-    print("Those atempting these tasks aren't allowed to ask questions.")
+    print("Nobo: Those atempting these tasks aren't allowed to ask questions.")
     print("You: Okay, I guess?")
     print("Nobo: Let us begin.")
-    print("Nobo: The Vrauqrid King, is fair and thought that it would be unjust for you to solve problems in our languge so you will be given the hardest problems we tried to solve after descovering technologies from your time.")
-    print("")
+    print("Nobo: The Vrauqrid King, is fair and thought that it would be unjust for you to solve problems in our languge.")
+    print("Nobo: You will be given problems from your time even the greatest minds of Vrauqrids' had difficulity solving.\n")
+    print("What is 3 x 25 equal?")
+
+    while True:
+        challenge1 = input("> ")
+        challenge1 = challenge1.upper()
+        if challenge1 == "75" or challenge1 == "SEVENTY-FIVE"
+            print("Nobo: Very impressive, you passed the first test.\n")
+            break
+        else:
+            print("Nobo: Wrong, don't worry though I'll give you another chance.\n")
+
+    print("Nobo: Congrats {0}, you solved the first task!\n".format(name))
+    print("Nobo: I'll give you an hour break and than you start your second challange.")
+    print("*1 HOUR LATER*\n")
+    print("CHALLANGE TWO\n")
+    print("Nobo: I think thats enough time lets start the second round.")
+    print("Nobo: This one is similar to the last but even harder.\n")
+    print("Nobo: What is 121 ÷ 11 equal to?\n")
+
+    while True:
+    challenge2 = input("> ")
+    challenge2 = challenge2.upper()
+    if challenge2 == "11" or challenge2 == "ELEVEN"
+        print("Nobo: WOW! That was fast it took our teams 3 months to crack that code!")
+        print("You passed the second test, good job!")
+        break
+    else:
+        print("Nobo: I'll give you another try.\n")
+
+
 
 
 
