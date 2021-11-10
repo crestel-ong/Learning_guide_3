@@ -57,7 +57,7 @@ def main():
             print("Fish-man: You need to calm down before ", end="")
             print("I start explaining, understand now?\n")
         else:
-            print("You shrug your shoulders confused")
+            print("You shrug your shoulders confused.")
             print("Fish-man: I don't understand that response.")
             print("*HINT* enter yes or no.\n")
 
@@ -85,7 +85,7 @@ def main():
 
     print("Nobo unties your hands and feet and takes of the tape.")
     print("You sit up and can now breath more clearly.")
-    print("The creature in front of you still scares you but it seems oddly nice.")
+    print("The creature in front of you still scares you but it seems oddly nice.\n")
     print("Nobo: Do you remember your name?\n")
 
     while True:
@@ -186,12 +186,12 @@ def main():
     while True:
         challenge2 = input("> ")
         challenge2 = challenge2.upper()
-    if challenge2 == "11" or challenge2 == "ELEVEN":
-        print("Nobo: WOW! That was fast it took our teams 3 months to crack that code!")
-        print("You passed the second test, good job!\n")
-        break
-    else:
-        print("Nobo: I'll let you try again.\n")
+        if challenge2 == "11" or challenge2 == "ELEVEN":
+            print("Nobo: WOW! That was fast it took our teams 3 months to crack that code!")
+            print("You passed the second test, good job!\n")
+            break
+        else:
+            print("Nobo: I'll let you try again.\n")
 
     print("Nobo: Nice job! You figured out round two.\n")
     print("Nobo: For this last one I won't give you time to recoperate.\n")
@@ -204,13 +204,13 @@ def main():
     while True:
         challenge3 = input("> ")
         challenge3 = challenge3.upper()
-    if challenge3 == "CLOCK":
-        print("Nobo: I am beyond surprised! That was the hardest one.")
-        print("You passed all the tests!")
-        break
-    else:
-        print("Nobo: Take another try.")
-        print("*HINT* Tick tock, tick tock.\n")
+        if challenge3 == "CLOCK":
+            print("Nobo: I am beyond surprised! That was the hardest one.")
+            print("You passed all the tests!")
+            break
+        else:
+            print("Nobo: Take another try.")
+            print("*HINT* Tick tock, tick tock.\n")
 
     print("Well done, my friend!")
     print("Go rest you deserve it, I'll get you tommorw to meet with the king.\n")
@@ -224,14 +224,31 @@ def main():
     print("So I'll let you take one of our ancient ships, you should have everything in there to surface, plus some rations.")
     print("You: Thank you so much! I will never forget your kindness.")
     print("No need for the pleasentures, just remember you can neer return once you leave.\n")
-    print("Although")
+    print("Although scared you imbark on the journey to the surface.")
+    print("You have a few close calls with issues of the ship, tsunamies, and other unfimilar creatures attacking the ship but you survive.")
+    print("It took what fesls like days to get to the surface.")
+    print("You get to the top.")
+    print("Huh I'm here now what should I do?")
 
+    # cloud 9 thing isn't working
+    # if this is not enough to fill 13 lessons then make story more detailed its pretty fast paced and simple explination
+    # this is the end scene what that charcter choices here will determine the end of their story
+    # while True:
+        # get input for 1st scene
+        #end = input("> ")
+        #end = end.upper()
+        #if end == "" or end == "YELL" or end == "SHOUT":
+            #print("Someone bonks your head and you fall unconscious.\n")
+            #break
+        #elif lastaction == "BREAK" or lastaction == "DESTROY" or lastaction == "RIP":
+            #print("Whatever is holding you down is too strong to break.\n")
+        #elif lastaction == "STAND" or lastaction == "MOVE" or lastaction == "UP":
+            #print("You're bound, you can't move.\n")
+        #else:
+            #print("That verb is unrecognized, try something else.")
+            #print("*HINT* use your voice.\n")
 
-
-
-
-
-
+    print("THE END.")
 
 
 if __name__ == "__main__":
