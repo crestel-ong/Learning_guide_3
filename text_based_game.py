@@ -230,6 +230,8 @@ def main():
     print("You get to the top.")
     print("Huh I'm here now what should I do?")
 
+    # tell char what they see
+
     # cloud 9 thing isn't working
     # if this is not enough to fill 13 lessons then make story more detailed its pretty fast paced and simple explination
     # this is the end scene what that charcter choices here will determine the end of their story
@@ -237,16 +239,30 @@ def main():
         # get input for 1st scene
         #end = input("> ")
         #end = end.upper()
-        #if end == "" or end == "YELL" or end == "SHOUT":
-            #print("Someone bonks your head and you fall unconscious.\n")
+        #if end == "" or end == "SLEEP" or end == "REST" or end == "NAP":
+            #print(" ")
+            #print("\n")
             #break
-        #elif lastaction == "BREAK" or lastaction == "DESTROY" or lastaction == "RIP":
-            #print("Whatever is holding you down is too strong to break.\n")
-        #elif lastaction == "STAND" or lastaction == "MOVE" or lastaction == "UP":
-            #print("You're bound, you can't move.\n")
+        #elif end == "FOOD" or end == "EAT" or end == "HUNGRY":
+        # char is so hungry they eat some suspious berries- they were pouinius you die
+            #print("")
+            #print("\n")
+            #break
+        #elif end == "CLIMB" or end == "SCAVANGE":
+        #find others and live with other humans
+            #print(" ")
+            #print("\n")
+            #break
+        #elif end == "KILL" or end == "ATTACK":
+        # try to kill something its mom comes out and eats you
+            #print("")
+            #break
+        #elif end == "SING" or end == "YELL" or end == "SCREAM" or end == "SHOUT":
+        # find other people
+            #print("")
+            #break
         #else:
             #print("That verb is unrecognized, try something else.")
-            #print("*HINT* use your voice.\n")
 
     print("THE END.")
 
