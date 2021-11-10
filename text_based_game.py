@@ -5,11 +5,13 @@
 # this is a text-based game for learning guide 3
 # its name is Finding My Way Home!
 
+import time
+
 
 def main():
     print("Welcome to Finding My Way Home!")
-    print("This is a text-based game. If you have some ", end="")
-    print("trouble during the story, ", end="")
+    print("This is a text-based game.")
+    print("If you have some trouble during the story, ", end="")
     print("some hints might be dropped to help you!\n")
     print("You groggily open your eyes, ", end="")
     print("they strain against the odd-looking lights above.")
@@ -20,7 +22,6 @@ def main():
     print("bound to the table you lay upon.\n")
 
     while True:
-        # get input for 1st scene
         action = input("> ")
         action1 = action.upper()
         if action1 == "SCREAM" or action1 == "YELL" or action1 == "SHOUT":
@@ -40,10 +41,14 @@ def main():
     print("You hurry and try to break out of the restraints.")
     print("A hideous slimy fish-humanoid creature enters the room. ", end="")
     print("The tape silences your fearful screams.")
-    print("Tears stream down your face and your heart starts to beat", end="")
-    print(" erratically as the ugly monster peers its beady eyes into yours.\n")
+    print("Tears stream down your face.")
+    print("Your heart starts to beat erratically as", end='')
+    print("the ugly monster peers its beady eyes into yours.\n")
+    time.sleep(10)
     print("Fish-man: Hey could you please calm down, you are freaking me out.")
+    time.sleep(3)
     print("Fish-man: I'm going to explain everything just stop panicking.")
+    time.sleep(3)
     print("Fish-man: Do you understand? Nod yes or no.\n")
 
     while True:
@@ -62,26 +67,36 @@ def main():
             print("*HINT* enter yes or no.\n")
 
     print("Fish-man: Firstly, my name is Nobo.")
-    print("Nobo: You are currently in the Fauna Colony, ", end= '')
+    time.sleep(3)
+    print("Nobo: You are currently in the Fauna Colony, ", end="")
     print("home of many Vrauqrids like myself.")
-    print("Nobo: Around 800 years ago a toxic nerve agent was globally released.")
-    print("Nobo: Humans were dying by the millions, some fled to bunkers ", end= '')
-    print("others to the tiny underwater colonies. The rest died.")
-    print("Nobo: We barely managed to survive in these colonies, ", end= '')
+    time.sleep(3)
+    print("Nobo: Around 800 years ago a toxic nerve agent ", end='') 
+    print("was globally released.")
+    print("Nobo: Humans were dying by the tens of millions daily.")
+    print(
+        "Some fled to bunkers, some to space ships, and others to the tiny underwater colonies."
+    )
+    print("The rest died.")
+    print("Nobo: We barely managed to survive in these colonies, ", end="")
     print("eventually we started to evolve and mutate into what we are now, Vrauqrids.")
     print("Nobo: Part human, part aquatic animal.\n")
     print("Nobo: When it comes to you, we found you inside a cyrochamber. ")
-    print("Nobo: Some ancient technology was salvaged and we were able ", end='')
+    print("Nobo: Some ancient technology was salvaged and we were able ", end="")
     print("to uncover some things.")
     print("Nobo: It seems that you were some sort of researcher or scientist. ")
     print("Nobo: You with a small group of others were researching the ocean bottom.")
-    print("Nobo: Some sort of creature attacked your submarine ", end= '')
+    print("Nobo: Some sort of creature attacked your submarine ", end="")
     print("and you got into the cryo-chamber as a last resort we figure.")
     print("Nobo: You have been asleep for around 1789 years.")
     print("Nobo: You are probably the last living human left on Earth.")
     print("Nobo: You have been sleeping in our infirmary for a month now.")
-    print("Nobo: We have underwater tsunamis so its just expected to restrain patients like this.")
-    print("Nobo: I'm going to remove the tape and restraints now so you can answer one of my questions.\n")
+    print(
+        "Nobo: We have underwater tsunamis so its just expected to restrain patients like this."
+    )
+    print(
+        "Nobo: I'm going to remove the tape and restraints now so you can answer one of my questions.\n"
+    )
 
     print("Nobo unties your hands and feet and takes of the tape.")
     print("You sit up and can now breath more clearly.")
@@ -93,7 +108,9 @@ def main():
         action3 = action3.upper()
         if action3 == "YES":
             print("Nobo: Nice!")
-            print("A goofy smile is plastered on its face, displaying its sharpended yellow teeth.\n")
+            print(
+                "A goofy smile is plastered on its face, displaying its sharpended yellow teeth.\n"
+            )
             break
         elif action3 == "NO":
             print("Nobo: You can choose a new name.\n")
@@ -108,43 +125,71 @@ def main():
     print("\nNobo: Good to offically meet you {0}.".format(name))
     print("Nobo: I know that we got off on the wrong foot, rather flipper...")
     print("Nobo starts chuckling at his own joke.")
-    print("Nobo: but i'm going to be your guide and the Vrauqrid showing you around the ropes.")
+    print(
+        "Nobo: but i'm going to be your guide and the Vrauqrid showing you around the ropes."
+    )
     print("Nobo: Luckily for you, you are welcome to live with us here in Fauna.")
-    print("Nobo: Unfortunately for you, only a few know your acient languge, me being one of those folks.\n")
+    print(
+        "Nobo: Unfortunately for you, only a few know your acient languge, me being one of those folks.\n"
+    )
 
-    print("Nobo: The best way for you to learn about this place is for you to explerance it yourself.")
-    print("He leads you out of the room, down the hall way to a large marble door lined with gold and ingraved details.")
+    print(
+        "Nobo: The best way for you to learn about this place is for you to explerance it yourself."
+    )
+    print(
+        "He leads you out of the room, down the hall way to a large marble door lined with gold and ingraved details."
+    )
 
     print("He opens the door to reveal a magnicenet scene before you.")
     print("A window allows you to peer out to the outside.")
-    print("A bueatiful city lies infront of you lit up by algeas and glowing aquatic life.")
+    print(
+        "A bueatiful city lies infront of you lit up by algeas and glowing aquatic life."
+    )
     print("You wispher under your breath: Wow, this is so unbeliveable\n. ")
     print("Nobo: Marvelous isn't it?")
     print("Nobo looks at you as your jaw is still dropped.")
     print("You: It's indescribable, I've never seen something so amazing.\n")
 
-    print("You spend the next 6 months learning about the Fauna culture, ettequite and it inhabitents.")
+    print(
+        "You spend the next 6 months learning about the Fauna culture, ettequite and it inhabitents."
+    )
     print("Although the bueaty of the colony you yearn to go back to the surface.")
-    print("The Vrauqrids despise my species and most look desguested whenever they see me.")
+    print(
+        "The Vrauqrids despise my species and most look desguested whenever they see me."
+    )
     print("You don't belong here, you want to go back up.")
-    print("You asked Nobo if you can and he says that you need to make a request with thier leader first.")
+    print(
+        "You asked Nobo if you can and he says that you need to make a request with thier leader first."
+    )
     print("You have been mentally preparing the past two weeks for this meeting.")
     print("Today is finally the day that you get to meet the king of the Fauna colony.")
-    print("Nobo guides you to the throne room. He opens the door and presents us to the king.")
+    print(
+        "Nobo guides you to the throne room. He opens the door and presents us to the king."
+    )
     print("Nobo: Luckliy for you the king too speaks your ancient languge.")
-    print("Nobo: Behold your holiness {0} the Human, they have a request of you.".format(name))
+    print(
+        "Nobo: Behold your holiness {0} the Human, they have a request of you.".format(
+            name
+        )
+    )
     print("Vrauqrid King: {0} what a werid name.".format(name))
     print("Vrauqrid King: Anyways...")
     print("The massive Vrauqrid glances down towards you curious of your request.")
     print("You: I want to return to the surface.")
     print("Vrauqrid King: Intresting... Why? *his voice filled with gravitas*")
-    print("You: I just don't belong here. I know that I have been treated politely here, but i can see the hatred towards me under Vrauqrids' fake smiles.")
+    print(
+        "You: I just don't belong here. I know that I have been treated politely here, but i can see the hatred towards me under Vrauqrids' fake smiles."
+    )
     print("You: I need to get back to where i belong, the surface.")
     print("Vrauqrid King: To be honest I'm quite pleased with this request.")
-    print("Vrauqrid King: You are correct the beings of my domain dislike your presents as a reminder of a sick part of our otherwise sacififul history.")
+    print(
+        "Vrauqrid King: You are correct the beings of my domain dislike your presents as a reminder of a sick part of our otherwise sacififul history."
+    )
     print("Vrauqrid King: That being that we are decdants of those wicked humans.")
-    print("Vrauqrid King: I am more happy to let you go.",end ='')
-    print("But before that you must complete 3 challanges, as tests to say if you are ready to leave.\n")
+    print("Vrauqrid King: I am more happy to let you go.", end="")
+    print(
+        "But before that you must complete 3 challanges, as tests to say if you are ready to leave.\n"
+    )
 
     print("Vrauqrid King: The three tasks will all be tests of intelect.")
     print("Vrauqrid King: Oh, also once you leave we will never take you back in.")
@@ -162,8 +207,12 @@ def main():
     print("Nobo: Those atempting these tasks aren't allowed to ask questions.")
     print("You: Okay, I guess?")
     print("Nobo: Let us begin.")
-    print("Nobo: The Vrauqrid King, is fair and thought that it would be unjust for you to solve problems in our languge.")
-    print("Nobo: You will be given problems from your time even the greatest minds of Vrauqrids' had difficulity solving.\n")
+    print(
+        "Nobo: The Vrauqrid King, is fair and thought that it would be unjust for you to solve problems in our languge."
+    )
+    print(
+        "Nobo: You will be given problems from your time even the greatest minds of Vrauqrids' had difficulity solving.\n"
+    )
     print("What is 3 x 25 equal?")
 
     while True:
@@ -187,7 +236,9 @@ def main():
         challenge2 = input("> ")
         challenge2 = challenge2.upper()
         if challenge2 == "11" or challenge2 == "ELEVEN":
-            print("Nobo: WOW! That was fast it took our teams 3 months to crack that code!")
+            print(
+                "Nobo: WOW! That was fast it took our teams 3 months to crack that code!"
+            )
             print("You passed the second test, good job!\n")
             break
         else:
@@ -217,15 +268,23 @@ def main():
 
     print("*NEXT DAY*")
     print("Nobo: The king is waiting for us.")
-    print("You and Nobo wait infront of the door with the gaurds before the king gives you the go ahead.")
+    print(
+        "You and Nobo wait infront of the door with the gaurds before the king gives you the go ahead."
+    )
     print("Vrauqrid King: ENTER!")
     print("Vrauqrid King: I heard that you passed all the challanges.")
     print("Honestly I'm a little surprised but I digress.")
-    print("So I'll let you take one of our ancient ships, you should have everything in there to surface, plus some rations.")
+    print(
+        "So I'll let you take one of our ancient ships, you should have everything in there to surface, plus some rations."
+    )
     print("You: Thank you so much! I will never forget your kindness.")
-    print("No need for the pleasentures, just remember you can neer return once you leave.\n")
+    print(
+        "No need for the pleasentures, just remember you can neer return once you leave.\n"
+    )
     print("Although scared you imbark on the journey to the surface.")
-    print("You have a few close calls with issues of the ship, tsunamies, and other unfimilar creatures attacking the ship but you survive.")
+    print(
+        "You have a few close calls with issues of the ship, tsunamies, and other unfimilar creatures attacking the ship but you survive."
+    )
     print("It took what fesls like days to get to the surface.")
     print("You get to the top.")
     print("Huh I'm here now what should I do?")
@@ -236,33 +295,33 @@ def main():
     # if this is not enough to fill 13 lessons then make story more detailed its pretty fast paced and simple explination
     # this is the end scene what that charcter choices here will determine the end of their story
     # while True:
-        # get input for 1st scene
-        #end = input("> ")
-        #end = end.upper()
-        #if end == "" or end == "SLEEP" or end == "REST" or end == "NAP":
-            #print(" ")
-            #print("\n")
-            #break
-        #elif end == "FOOD" or end == "EAT" or end == "HUNGRY":
-        # char is so hungry they eat some suspious berries- they were pouinius you die
-            #print("")
-            #print("\n")
-            #break
-        #elif end == "CLIMB" or end == "SCAVANGE":
-        #find others and live with other humans
-            #print(" ")
-            #print("\n")
-            #break
-        #elif end == "KILL" or end == "ATTACK":
-        # try to kill something its mom comes out and eats you
-            #print("")
-            #break
-        #elif end == "SING" or end == "YELL" or end == "SCREAM" or end == "SHOUT":
-        # find other people
-            #print("")
-            #break
-        #else:
-            #print("That verb is unrecognized, try something else.")
+    # get input for 1st scene
+    # end = input("> ")
+    # end = end.upper()
+    # if end == "" or end == "SLEEP" or end == "REST" or end == "NAP":
+    # print(" ")
+    # print("\n")
+    # break
+    # elif end == "FOOD" or end == "EAT" or end == "HUNGRY":
+    # char is so hungry they eat some suspious berries- they were pouinius you die
+    # print("")
+    # print("\n")
+    # break
+    # elif end == "CLIMB" or end == "SCAVANGE":
+    # find others and live with other humans
+    # print(" ")
+    # print("\n")
+    # break
+    # elif end == "KILL" or end == "ATTACK":
+    # try to kill something its mom comes out and eats you
+    # print("")
+    # break
+    # elif end == "SING" or end == "YELL" or end == "SCREAM" or end == "SHOUT":
+    # find other people
+    # print("")
+    # break
+    # else:
+    # print("That verb is unrecognized, try something else.")
 
     print("THE END.")
 
